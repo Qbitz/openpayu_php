@@ -10,12 +10,8 @@
         "php": ">=5"
     },
     "autoload": {
-        "psr-0": {
-            "OpenPayU_":       "OpenPayU/", 
-            "OpenPayU":        "OpenPayU/",
-            "OpenPayUBase":    "OpenPayU/",
-            "OpenPayUNetwork": "OpenPayU/",
-            "OpenPayuOAuth":   "OpenPayU/"
-        }
+        "classmap": [
+            "OpenPayU/" 
+        ]
     }
 }
