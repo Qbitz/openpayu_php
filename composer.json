@@ -11,11 +11,11 @@
     },
     "autoload": {
         "psr-0": {
-          "OpenPayU":        "OpenPayU/",
-          "OpenPayUBase":    "OpenPayU/",
-          "OpenPayUNetwork": "OpenPayU/",
-          "OpenPayuOAuth":   "OpenPayU/",
-          "OpenPayU_":       "OpenPayU/" 
+            "OpenPayU_":       "OpenPayU/", 
+            "OpenPayU":        "OpenPayU/",
+            "OpenPayUBase":    "OpenPayU/",
+            "OpenPayUNetwork": "OpenPayU/",
+            "OpenPayuOAuth":   "OpenPayU/"
         }
     }
 }
