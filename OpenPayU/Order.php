@@ -89,7 +89,7 @@ class OpenPayU_Order extends OpenPayU
         if ($debug)
             OpenPayU::addOutputConsole('OpenPayU endpoint for OrderRetrieveRequest message', $OrderRetrieveRequestUrl);
 
-        $oauthResult = OpenPayu_OAuth::accessTokenByClientCredentials();
+        $oauthResult = OpenPayU_OAuth::accessTokenByClientCredentials();
 
         OpenPayU::setOpenPayuEndPoint($OrderRetrieveRequestUrl . '?oauth_token=' . $oauthResult->getAccessToken());
         $xml = OpenPayU::buildOrderRetrieveRequest($req);
