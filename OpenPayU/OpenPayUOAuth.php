@@ -12,7 +12,7 @@
 if (!defined('OPENPAYU_LIBRARY'))
     exit;
 
-class OpenPayuOAuth extends OpenPayUBase
+class OpenPayUOAuth extends OpenPayUBase
 {
 
     /**
